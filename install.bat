@@ -1,3 +1,8 @@
+set root=C:\Users\wangy\AppData\Local\Continuum\Anaconda2
+set eve=C:\Users\wangy\AppData\Local\Continuum\Anaconda2\envs\py36
+
+call %root%\Scripts\activate.bat %eve%
+
 cd > .foo
 set /p IXMP=<.foo
 del .foo
